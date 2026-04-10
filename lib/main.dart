@@ -380,7 +380,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                const Text('Accounts >', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                const Text('Quick Actuins', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
                 TextButton(onPressed: () {}, child: const Text('See All', style: TextStyle(color: Color(0xFF1A3E6F)))),
               ],
             ),
