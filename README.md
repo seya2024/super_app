@@ -65,3 +65,174 @@ A modern, feature-rich mobile banking application built with Flutter, replicatin
 ```bash
 git clone https://github.com/yourusername/dashen_bank_app.git
 cd dashen_bank_app
+flutter pub get
+flutter run
+Configuration
+
+Add assets to pubspec.yaml:
+yaml
+
+flutter:
+  assets:
+    - assets/logo.png
+
+Project Structure
+text
+
+lib/
+├── main.dart                 # Main application file
+├── PinLoginScreen           # PIN authentication screen
+├── DashenBankHomePage       # Main home screen with bottom navigation
+├── HomeScreen               # Dashboard screen
+├── AppsScreen               # Apps/services screen
+├── TransactionScreen        # Transaction history screen
+└── ProfileScreen            # User profile screen
+
+🎨 UI/UX Features
+Color Scheme
+
+    Primary Color: #1A3E6F (Dashen Bank Blue)
+
+    Secondary Color: #2C5282 (Darker Blue)
+
+    Background: White
+
+    Accent: Blue gradient effects
+
+Typography
+
+    System default font
+
+    Responsive text sizing
+
+    Bold headings for important information
+
+Icons
+
+    Material Icons for consistent design
+
+    Custom icons for banking services
+
+    Visual indicators for actions
+
+🔒 Security Implementation
+
+    PIN Protection: 5-digit PIN required for access
+
+    Data Privacy: Sensitive information hidden by default
+
+    Secure Navigation: Protected routes after authentication
+
+    Session Management: Logout functionality to clear session
+
+📱 Platform Support
+Platform	Support
+Android	✅ Full Support
+iOS	✅ Full Support
+Web	✅ Full Support
+Desktop	⚠️ Limited Testing
+🛠️ Built With
+
+    Flutter - UI Framework
+
+    Material Design - Design System
+
+    Dart - Programming Language
+
+📦 Dependencies
+yaml
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # No external dependencies required for core functionality
+
+🚦 How to Use
+PIN Login
+
+    Launch the app
+
+    Enter your 5-digit PIN
+
+    Click the check button (✓) to login
+
+    Wait for the loading animation (2 seconds)
+
+Home Screen Features
+
+    View Balance: Click the eye icon to show/hide balance
+
+    Copy Account: Reveal account number, then click copy icon
+
+    Quick Actions: Tap any service icon to access feature
+
+    E-commerce: Scroll horizontally to view products
+
+Navigation
+
+    Use bottom navigation bar to switch between:
+
+        Home
+
+        Apps
+
+        Transaction
+
+        Profile
+
+Logout
+
+    Go to Profile screen
+
+    Click "Logout" button
+
+    Returns to PIN login screen
+
+🎯 Future Enhancements
+
+    Biometric authentication (Fingerprint/Face ID)
+
+    Real API integration for transactions
+
+    Push notifications
+
+    QR code payments
+
+    Bill payment integration
+
+    Money transfer between accounts
+
+    Transaction filters and date range
+
+    Dark mode support
+
+    Multi-language support
+
+    Account statements (PDF export)
+
+🤝 Contributing
+
+    Fork the repository
+
+    Create your feature branch (git checkout -b feature/AmazingFeature)
+
+    Commit your changes (git commit -m 'Add some AmazingFeature')
+
+    Push to the branch (git push origin feature/AmazingFeature)
+
+    Open a Pull Request
+
+📝 License
+
+This project is for educational purposes only. All rights reserved.
+⚠️ Disclaimer
+
+This is a demonstration/educational project and is not affiliated with or endorsed by Dashen Bank. The app is created for learning purposes to showcase Flutter development capabilities.
+👨‍💻 Developer
+
+Seid Mohammed Seid
+
+    GitHub: @seya2024
+
+    Email: seidm2031@gmail.com
+
